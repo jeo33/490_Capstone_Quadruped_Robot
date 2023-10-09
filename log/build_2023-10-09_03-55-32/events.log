@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.002009] (Lidar) JobQueued: {'identifier': 'Lidar', 'dependencies': OrderedDict()}
+[0.002748] (lidar_plotter) JobQueued: {'identifier': 'lidar_plotter', 'dependencies': OrderedDict()}
+[0.003144] (Lidar) JobStarted: {'identifier': 'Lidar'}
+[0.099058] (-) TimerEvent: {}
+[0.200274] (-) TimerEvent: {}
+[0.301086] (-) TimerEvent: {}
+[0.403180] (-) TimerEvent: {}
+[0.414263] (lidar_plotter) JobStarted: {'identifier': 'lidar_plotter'}
+[0.503662] (-) TimerEvent: {}
+[0.604534] (-) TimerEvent: {}
+[0.705692] (-) TimerEvent: {}
+[0.809673] (-) TimerEvent: {}
+[0.910437] (-) TimerEvent: {}
+[1.011208] (-) TimerEvent: {}
+[1.112028] (-) TimerEvent: {}
+[1.213065] (-) TimerEvent: {}
+[1.313930] (-) TimerEvent: {}
+[1.414688] (-) TimerEvent: {}
+[1.515423] (-) TimerEvent: {}
+[1.616138] (-) TimerEvent: {}
+[1.717072] (-) TimerEvent: {}
+[1.817834] (-) TimerEvent: {}
+[1.918612] (-) TimerEvent: {}
+[2.019530] (-) TimerEvent: {}
+[2.120790] (-) TimerEvent: {}
+[2.221829] (-) TimerEvent: {}
+[2.322832] (-) TimerEvent: {}
+[2.424058] (-) TimerEvent: {}
+[2.524853] (-) TimerEvent: {}
+[2.625743] (-) TimerEvent: {}
+[2.726544] (-) TimerEvent: {}
+[2.827527] (-) TimerEvent: {}
+[2.928296] (-) TimerEvent: {}
+[3.029076] (-) TimerEvent: {}
+[3.129978] (-) TimerEvent: {}
+[3.230760] (-) TimerEvent: {}
+[3.331749] (-) TimerEvent: {}
+[3.432491] (-) TimerEvent: {}
+[3.533255] (-) TimerEvent: {}
+[3.634026] (-) TimerEvent: {}
+[3.735234] (-) TimerEvent: {}
+[3.840502] (-) TimerEvent: {}
+[3.941860] (-) TimerEvent: {}
+[4.043115] (-) TimerEvent: {}
+[4.144939] (-) TimerEvent: {}
+[4.246004] (-) TimerEvent: {}
+[4.348535] (-) TimerEvent: {}
+[4.449785] (-) TimerEvent: {}
+[4.550688] (-) TimerEvent: {}
+[4.651558] (-) TimerEvent: {}
+[4.753009] (-) TimerEvent: {}
+[4.854516] (-) TimerEvent: {}
+[4.955434] (-) TimerEvent: {}
+[5.056507] (-) TimerEvent: {}
+[5.158361] (-) TimerEvent: {}
+[5.259979] (-) TimerEvent: {}
+[5.360789] (-) TimerEvent: {}
+[5.461866] (-) TimerEvent: {}
+[5.563349] (-) TimerEvent: {}
+[5.665038] (-) TimerEvent: {}
+[5.766261] (-) TimerEvent: {}
+[5.867442] (-) TimerEvent: {}
+[5.968238] (-) TimerEvent: {}
+[6.069386] (-) TimerEvent: {}
+[6.170820] (-) TimerEvent: {}
+[6.273167] (-) TimerEvent: {}
+[6.341615] (Lidar) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/Lidar', 'build', '--build-base', '/home/ubuntu/Quadrupedal490_ws/build/Lidar/build', 'install', '--record', '/home/ubuntu/Quadrupedal490_ws/build/Lidar/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Quadrupedal490_ws/src/Lidar', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.13.7 61799 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/Quadrupedal490_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '19', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/Quadrupedal490_ws/install/Lidar:/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/Quadrupedal490_ws/build/Lidar', 'SSH_CONNECTION': '192.168.13.7 61799 192.168.13.11 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Quadrupedal490_ws/build/Lidar/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages:/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[6.361167] (lidar_plotter) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_plotter', 'build', '--build-base', '/home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/build', 'install', '--record', '/home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Quadrupedal490_ws/src/lidar_plotter', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.13.7 61799 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/Quadrupedal490_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '19', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ubuntu/Quadrupedal490_ws/install/Lidar:/opt/ros/iron', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/ubuntu/Quadrupedal490_ws/build/lidar_plotter', 'SSH_CONNECTION': '192.168.13.7 61799 192.168.13.11 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages:/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[6.373775] (-) TimerEvent: {}
+[6.474702] (-) TimerEvent: {}
+[6.575803] (-) TimerEvent: {}
+[6.676922] (-) TimerEvent: {}
+[6.777863] (-) TimerEvent: {}
+[6.878954] (-) TimerEvent: {}
+[6.979778] (-) TimerEvent: {}
+[7.080602] (-) TimerEvent: {}
+[7.181459] (-) TimerEvent: {}
+[7.282209] (-) TimerEvent: {}
+[7.383274] (-) TimerEvent: {}
+[7.484503] (-) TimerEvent: {}
+[7.586813] (-) TimerEvent: {}
+[7.688541] (-) TimerEvent: {}
+[7.789553] (-) TimerEvent: {}
+[7.890529] (-) TimerEvent: {}
+[7.904864] (Lidar) StdoutLine: {'line': b'running egg_info\n'}
+[7.907996] (Lidar) StdoutLine: {'line': b'writing ../../build/Lidar/Lidar.egg-info/PKG-INFO\n'}
+[7.909556] (Lidar) StdoutLine: {'line': b'writing dependency_links to ../../build/Lidar/Lidar.egg-info/dependency_links.txt\n'}
+[7.910769] (Lidar) StdoutLine: {'line': b'writing entry points to ../../build/Lidar/Lidar.egg-info/entry_points.txt\n'}
+[7.911919] (Lidar) StdoutLine: {'line': b'writing requirements to ../../build/Lidar/Lidar.egg-info/requires.txt\n'}
+[7.912939] (Lidar) StdoutLine: {'line': b'writing top-level names to ../../build/Lidar/Lidar.egg-info/top_level.txt\n'}
+[7.925444] (Lidar) StdoutLine: {'line': b"reading manifest file '../../build/Lidar/Lidar.egg-info/SOURCES.txt'\n"}
+[7.930435] (Lidar) StdoutLine: {'line': b"writing manifest file '../../build/Lidar/Lidar.egg-info/SOURCES.txt'\n"}
+[7.931307] (Lidar) StdoutLine: {'line': b'running build\n'}
+[7.932070] (Lidar) StdoutLine: {'line': b'running build_py\n'}
+[7.933205] (Lidar) StdoutLine: {'line': b'running install\n'}
+[7.934526] (Lidar) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.935346] (Lidar) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.936204] (Lidar) StdoutLine: {'line': b'running install_lib\n'}
+[7.941488] (lidar_plotter) StdoutLine: {'line': b'running egg_info\n'}
+[7.943756] (Lidar) StdoutLine: {'line': b'running install_data\n'}
+[7.945026] (lidar_plotter) StdoutLine: {'line': b'writing ../../build/lidar_plotter/lidar_plotter.egg-info/PKG-INFO\n'}
+[7.946511] (lidar_plotter) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_plotter/lidar_plotter.egg-info/dependency_links.txt\n'}
+[7.947375] (Lidar) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.948425] (lidar_plotter) StdoutLine: {'line': b'writing entry points to ../../build/lidar_plotter/lidar_plotter.egg-info/entry_points.txt\n'}
+[7.949371] (lidar_plotter) StdoutLine: {'line': b'writing requirements to ../../build/lidar_plotter/lidar_plotter.egg-info/requires.txt\n'}
+[7.950292] (lidar_plotter) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_plotter/lidar_plotter.egg-info/top_level.txt\n'}
+[7.955806] (Lidar) StdoutLine: {'line': b"removing '/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.957910] (Lidar) StdoutLine: {'line': b'Copying ../../build/Lidar/Lidar.egg-info to /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar-0.0.0-py3.10.egg-info\n'}
+[7.960689] (lidar_plotter) StdoutLine: {'line': b"reading manifest file '../../build/lidar_plotter/lidar_plotter.egg-info/SOURCES.txt'\n"}
+[7.964952] (lidar_plotter) StdoutLine: {'line': b"writing manifest file '../../build/lidar_plotter/lidar_plotter.egg-info/SOURCES.txt'\n"}
+[7.965747] (lidar_plotter) StdoutLine: {'line': b'running build\n'}
+[7.966241] (lidar_plotter) StdoutLine: {'line': b'running build_py\n'}
+[7.967203] (lidar_plotter) StdoutLine: {'line': b'running install\n'}
+[7.968308] (lidar_plotter) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[7.969199] (lidar_plotter) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.970257] (Lidar) StdoutLine: {'line': b'running install_scripts\n'}
+[7.971310] (lidar_plotter) StdoutLine: {'line': b'running install_lib\n'}
+[7.976876] (lidar_plotter) StdoutLine: {'line': b'running install_data\n'}
+[7.979912] (lidar_plotter) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.988787] (lidar_plotter) StdoutLine: {'line': b"removing '/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages/lidar_plotter-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.990671] (-) TimerEvent: {}
+[7.991540] (lidar_plotter) StdoutLine: {'line': b'Copying ../../build/lidar_plotter/lidar_plotter.egg-info to /home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages/lidar_plotter-0.0.0-py3.10.egg-info\n'}
+[7.999605] (lidar_plotter) StdoutLine: {'line': b'running install_scripts\n'}
+[8.062456] (Lidar) StdoutLine: {'line': b'Installing lidar_scan script to /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/Lidar\n'}
+[8.068141] (Lidar) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Quadrupedal490_ws/build/Lidar/install.log'\n"}
+[8.090949] (-) TimerEvent: {}
+[8.107521] (lidar_plotter) StdoutLine: {'line': b'Installing lidar_plot script to /home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/lidar_plotter\n'}
+[8.111178] (lidar_plotter) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/install.log'\n"}
+[8.191558] (-) TimerEvent: {}
+[8.274583] (Lidar) CommandEnded: {'returncode': 0}
+[8.291782] (-) TimerEvent: {}
+[8.393321] (-) TimerEvent: {}
+[8.497767] (-) TimerEvent: {}
+[8.600654] (-) TimerEvent: {}
+[8.607951] (Lidar) JobEnded: {'identifier': 'Lidar', 'rc': 0}
+[8.613047] (lidar_plotter) CommandEnded: {'returncode': 0}
+[8.700821] (-) TimerEvent: {}
+[8.801525] (-) TimerEvent: {}
+[8.879790] (lidar_plotter) JobEnded: {'identifier': 'lidar_plotter', 'rc': 0}
+[8.883333] (-) EventReactorShutdown: {}

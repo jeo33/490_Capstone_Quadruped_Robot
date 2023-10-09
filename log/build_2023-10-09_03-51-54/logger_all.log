@@ -1,0 +1,140 @@
+[21.398s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[21.399s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff96bba470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff970c74f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff970c74f0>>)
+[22.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[22.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[22.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[22.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[22.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[22.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[22.679s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/Quadrupedal490_ws'
+[22.680s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[22.681s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[22.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[22.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[22.684s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[22.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[22.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[22.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[22.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[22.971s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[22.971s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[22.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[22.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[22.972s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[22.973s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[22.974s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[22.974s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[22.975s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[22.976s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[22.976s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[22.978s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[22.978s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[22.979s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[22.981s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[22.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[22.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[22.984s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[22.986s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[22.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[22.991s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[22.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[22.992s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[22.993s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[22.994s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[22.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[22.995s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[22.996s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[23.000s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lidar) by extensions ['ignore', 'ignore_ament_install']
+[23.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lidar) by extension 'ignore'
+[23.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lidar) by extension 'ignore_ament_install'
+[23.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lidar) by extensions ['colcon_pkg']
+[23.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lidar) by extension 'colcon_pkg'
+[23.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lidar) by extensions ['colcon_meta']
+[23.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lidar) by extension 'colcon_meta'
+[23.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lidar) by extensions ['ros']
+[23.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/Lidar) by extension 'ros'
+[23.030s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Lidar' with type 'ros.ament_python' and name 'Lidar'
+[23.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_plotter) by extensions ['ignore', 'ignore_ament_install']
+[23.032s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_plotter) by extension 'ignore'
+[23.033s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_plotter) by extension 'ignore_ament_install'
+[23.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_plotter) by extensions ['colcon_pkg']
+[23.034s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_plotter) by extension 'colcon_pkg'
+[23.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_plotter) by extensions ['colcon_meta']
+[23.035s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_plotter) by extension 'colcon_meta'
+[23.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_plotter) by extensions ['ros']
+[23.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_plotter) by extension 'ros'
+[23.044s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_plotter' with type 'ros.ament_python' and name 'lidar_plotter'
+[23.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[23.045s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[23.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[23.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[23.050s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[24.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[24.853s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[25.571s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ubuntu/Quadrupedal490_ws/install
+[25.883s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/iron
+[25.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[27.179s] Level 5:colcon.colcon_core.verb:set package 'Lidar' build argument 'cmake_args' from command line to 'None'
+[27.179s] Level 5:colcon.colcon_core.verb:set package 'Lidar' build argument 'cmake_target' from command line to 'None'
+[27.179s] Level 5:colcon.colcon_core.verb:set package 'Lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[27.180s] Level 5:colcon.colcon_core.verb:set package 'Lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[27.181s] Level 5:colcon.colcon_core.verb:set package 'Lidar' build argument 'cmake_clean_first' from command line to 'False'
+[27.181s] Level 5:colcon.colcon_core.verb:set package 'Lidar' build argument 'cmake_force_configure' from command line to 'False'
+[27.187s] Level 5:colcon.colcon_core.verb:set package 'Lidar' build argument 'ament_cmake_args' from command line to 'None'
+[27.187s] Level 5:colcon.colcon_core.verb:set package 'Lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[27.188s] Level 5:colcon.colcon_core.verb:set package 'Lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[27.188s] DEBUG:colcon.colcon_core.verb:Building package 'Lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Quadrupedal490_ws/build/Lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Quadrupedal490_ws/install/Lidar', 'merge_install': False, 'path': '/home/ubuntu/Quadrupedal490_ws/src/Lidar', 'symlink_install': False, 'test_result_base': None}
+[27.453s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'cmake_args' from command line to 'None'
+[27.453s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'cmake_target' from command line to 'None'
+[27.454s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[27.454s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'cmake_clean_cache' from command line to 'False'
+[27.454s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'cmake_clean_first' from command line to 'False'
+[27.459s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'cmake_force_configure' from command line to 'False'
+[27.460s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'ament_cmake_args' from command line to 'None'
+[27.482s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'catkin_cmake_args' from command line to 'None'
+[27.482s] Level 5:colcon.colcon_core.verb:set package 'lidar_plotter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[27.483s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_plotter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/Quadrupedal490_ws/build/lidar_plotter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter', 'merge_install': False, 'path': '/home/ubuntu/Quadrupedal490_ws/src/lidar_plotter', 'symlink_install': False, 'test_result_base': None}
+[27.752s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[28.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[28.233s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/Quadrupedal490_ws/src/Lidar' with build type 'ament_python'
+[28.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('Lidar', 'ament_prefix_path')
+[28.670s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[28.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Quadrupedal490_ws/install/Lidar/share/Lidar/hook/ament_prefix_path.ps1'
+[28.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Quadrupedal490_ws/install/Lidar/share/Lidar/hook/ament_prefix_path.dsv'
+[28.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Quadrupedal490_ws/install/Lidar/share/Lidar/hook/ament_prefix_path.sh'
+[29.095s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.096s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.258s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/Quadrupedal490_ws/src/lidar_plotter' with build type 'ament_python'
+[30.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_plotter', 'ament_prefix_path')
+[30.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/share/lidar_plotter/hook/ament_prefix_path.ps1'
+[30.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/share/lidar_plotter/hook/ament_prefix_path.dsv'
+[30.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/share/lidar_plotter/hook/ament_prefix_path.sh'
+[30.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.928s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[40.215s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/Quadrupedal490_ws/src/Lidar'
+[40.686s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[40.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.259s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/Quadrupedal490_ws/src/lidar_plotter'
+[46.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[46.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[51.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Quadrupedal490_ws/src/Lidar': PYTHONPATH=/home/ubuntu/Quadrupedal490_ws/build/Lidar/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Lidar build --build-base /home/ubuntu/Quadrupedal490_ws/build/Lidar/build install --record /home/ubuntu/Quadrupedal490_ws/build/Lidar/install.log --single-version-externally-managed
+[51.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/Quadrupedal490_ws/src/lidar_plotter': PYTHONPATH=/home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lidar_plotter build --build-base /home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/build install --record /home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/install.log --single-version-externally-managed
+[53.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/Quadrupedal490_ws/src/Lidar' returned '1': PYTHONPATH=/home/ubuntu/Quadrupedal490_ws/build/Lidar/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Lidar build --build-base /home/ubuntu/Quadrupedal490_ws/build/Lidar/build install --record /home/ubuntu/Quadrupedal490_ws/build/Lidar/install.log --single-version-externally-managed
+[53.988s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[53.989s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[53.990s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[53.991s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[54.228s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[54.228s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[54.229s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[54.730s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[54.865s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Quadrupedal490_ws/install/local_setup.ps1'
+[54.872s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Quadrupedal490_ws/install/_local_setup_util_ps1.py'
+[54.880s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Quadrupedal490_ws/install/setup.ps1'
+[55.037s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Quadrupedal490_ws/install/local_setup.sh'
+[55.046s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/Quadrupedal490_ws/install/_local_setup_util_sh.py'
+[55.049s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Quadrupedal490_ws/install/setup.sh'
+[55.212s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Quadrupedal490_ws/install/local_setup.bash'
+[55.219s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Quadrupedal490_ws/install/setup.bash'
+[55.366s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/Quadrupedal490_ws/install/local_setup.zsh'
+[55.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/Quadrupedal490_ws/install/setup.zsh'

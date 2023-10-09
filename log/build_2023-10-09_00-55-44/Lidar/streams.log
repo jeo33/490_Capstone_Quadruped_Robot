@@ -1,0 +1,39 @@
+[11.046s] Invoking command in '/home/ubuntu/Quadrupedal490_ws/src/Lidar': PYTHONPATH=/home/ubuntu/Quadrupedal490_ws/build/Lidar/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Lidar build --build-base /home/ubuntu/Quadrupedal490_ws/build/Lidar/build install --record /home/ubuntu/Quadrupedal490_ws/build/Lidar/install.log --single-version-externally-managed
+[14.204s] running egg_info
+[14.211s] creating ../../build/Lidar/Lidar.egg-info
+[14.215s] writing ../../build/Lidar/Lidar.egg-info/PKG-INFO
+[14.217s] writing dependency_links to ../../build/Lidar/Lidar.egg-info/dependency_links.txt
+[14.221s] writing entry points to ../../build/Lidar/Lidar.egg-info/entry_points.txt
+[14.225s] writing requirements to ../../build/Lidar/Lidar.egg-info/requires.txt
+[14.233s] writing top-level names to ../../build/Lidar/Lidar.egg-info/top_level.txt
+[14.234s] writing manifest file '../../build/Lidar/Lidar.egg-info/SOURCES.txt'
+[14.243s] reading manifest file '../../build/Lidar/Lidar.egg-info/SOURCES.txt'
+[14.249s] writing manifest file '../../build/Lidar/Lidar.egg-info/SOURCES.txt'
+[14.255s] running build
+[14.274s] running build_py
+[14.274s] creating /home/ubuntu/Quadrupedal490_ws/build/Lidar/build
+[14.280s] creating /home/ubuntu/Quadrupedal490_ws/build/Lidar/build/lib
+[14.281s] creating /home/ubuntu/Quadrupedal490_ws/build/Lidar/build/lib/Lidar
+[14.282s] copying Lidar/lidar_scan.py -> /home/ubuntu/Quadrupedal490_ws/build/Lidar/build/lib/Lidar
+[14.283s] copying Lidar/__init__.py -> /home/ubuntu/Quadrupedal490_ws/build/Lidar/build/lib/Lidar
+[14.283s] running install
+[14.285s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[14.286s]   warnings.warn(
+[14.287s] running install_lib
+[14.289s] creating /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar
+[14.291s] copying /home/ubuntu/Quadrupedal490_ws/build/Lidar/build/lib/Lidar/lidar_scan.py -> /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar
+[14.292s] copying /home/ubuntu/Quadrupedal490_ws/build/Lidar/build/lib/Lidar/__init__.py -> /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar
+[14.292s] byte-compiling /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar/lidar_scan.py to lidar_scan.cpython-310.pyc
+[14.293s] byte-compiling /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar/__init__.py to __init__.cpython-310.pyc
+[14.294s] running install_data
+[14.296s] creating /home/ubuntu/Quadrupedal490_ws/install/Lidar/share/ament_index
+[14.298s] creating /home/ubuntu/Quadrupedal490_ws/install/Lidar/share/ament_index/resource_index
+[14.299s] creating /home/ubuntu/Quadrupedal490_ws/install/Lidar/share/ament_index/resource_index/packages
+[14.300s] copying resource/Lidar -> /home/ubuntu/Quadrupedal490_ws/install/Lidar/share/ament_index/resource_index/packages
+[14.300s] copying package.xml -> /home/ubuntu/Quadrupedal490_ws/install/Lidar/share/Lidar
+[14.301s] running install_egg_info
+[14.314s] Copying ../../build/Lidar/Lidar.egg-info to /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar-0.0.0-py3.10.egg-info
+[14.332s] running install_scripts
+[14.488s] Installing lidar_scan script to /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/Lidar
+[14.491s] writing list of installed files to '/home/ubuntu/Quadrupedal490_ws/build/Lidar/install.log'
+[14.780s] Invoked command in '/home/ubuntu/Quadrupedal490_ws/src/Lidar' returned '0': PYTHONPATH=/home/ubuntu/Quadrupedal490_ws/build/Lidar/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Lidar build --build-base /home/ubuntu/Quadrupedal490_ws/build/Lidar/build install --record /home/ubuntu/Quadrupedal490_ws/build/Lidar/install.log --single-version-externally-managed

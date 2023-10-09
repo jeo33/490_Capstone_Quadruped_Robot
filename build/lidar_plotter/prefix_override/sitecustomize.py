@@ -1,0 +1,3 @@
+import sys
+sys.real_prefix = sys.prefix
+sys.prefix = sys.exec_prefix = '/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter'

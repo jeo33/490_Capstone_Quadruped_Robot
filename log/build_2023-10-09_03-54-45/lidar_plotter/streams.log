@@ -1,0 +1,22 @@
+[6.263s] Invoking command in '/home/ubuntu/Quadrupedal490_ws/src/lidar_plotter': PYTHONPATH=/home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lidar_plotter build --build-base /home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/build install --record /home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/install.log --single-version-externally-managed
+[7.838s] running egg_info
+[7.842s] writing ../../build/lidar_plotter/lidar_plotter.egg-info/PKG-INFO
+[7.843s] writing dependency_links to ../../build/lidar_plotter/lidar_plotter.egg-info/dependency_links.txt
+[7.844s] writing entry points to ../../build/lidar_plotter/lidar_plotter.egg-info/entry_points.txt
+[7.845s] writing requirements to ../../build/lidar_plotter/lidar_plotter.egg-info/requires.txt
+[7.846s] writing top-level names to ../../build/lidar_plotter/lidar_plotter.egg-info/top_level.txt
+[7.858s] reading manifest file '../../build/lidar_plotter/lidar_plotter.egg-info/SOURCES.txt'
+[7.864s] writing manifest file '../../build/lidar_plotter/lidar_plotter.egg-info/SOURCES.txt'
+[7.865s] running build
+[7.866s] running build_py
+[7.867s] running install
+[7.868s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.869s]   warnings.warn(
+[7.871s] running install_lib
+[7.878s] running install_data
+[7.882s] running install_egg_info
+[7.896s] removing '/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages/lidar_plotter-0.0.0-py3.10.egg-info' (and everything under it)
+[7.898s] Copying ../../build/lidar_plotter/lidar_plotter.egg-info to /home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages/lidar_plotter-0.0.0-py3.10.egg-info
+[7.912s] running install_scripts
+[8.046s] Installing lidar_plot script to /home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/lidar_plotter
+[8.048s] writing list of installed files to '/home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/install.log'

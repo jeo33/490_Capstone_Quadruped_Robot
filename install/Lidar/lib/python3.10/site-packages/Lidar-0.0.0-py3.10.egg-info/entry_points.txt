@@ -1,0 +1,4 @@
+[console_scripts]
+lidar_plot = Lidar.lidar_plot:main
+lidar_scan = Lidar.lidar_scan:main
+

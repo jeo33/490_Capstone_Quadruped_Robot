@@ -1,0 +1,26 @@
+[12.566s] Invoking command in '/home/ubuntu/Quadrupedal490_ws/src/lidar_plotter': PYTHONPATH=/home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lidar_plotter build --build-base /home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/build install --record /home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/install.log --single-version-externally-managed
+[16.922s] running egg_info
+[16.942s] writing ../../build/lidar_plotter/lidar_plotter.egg-info/PKG-INFO
+[16.943s] writing dependency_links to ../../build/lidar_plotter/lidar_plotter.egg-info/dependency_links.txt
+[16.949s] writing entry points to ../../build/lidar_plotter/lidar_plotter.egg-info/entry_points.txt
+[16.949s] writing requirements to ../../build/lidar_plotter/lidar_plotter.egg-info/requires.txt
+[16.952s] writing top-level names to ../../build/lidar_plotter/lidar_plotter.egg-info/top_level.txt
+[16.971s] reading manifest file '../../build/lidar_plotter/lidar_plotter.egg-info/SOURCES.txt'
+[16.977s] writing manifest file '../../build/lidar_plotter/lidar_plotter.egg-info/SOURCES.txt'
+[16.978s] running build
+[16.979s] running build_py
+[17.021s] copying lidar_plotter/lidarPlotter.py -> /home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/build/lib/lidar_plotter
+[17.021s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[17.022s]   warnings.warn(
+[17.023s] running install
+[17.023s] running install_lib
+[17.024s] copying /home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/build/lib/lidar_plotter/lidarPlotter.py -> /home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages/lidar_plotter
+[17.024s] byte-compiling /home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages/lidar_plotter/lidarPlotter.py to lidarPlotter.cpython-310.pyc
+[17.026s] running install_data
+[17.037s] running install_egg_info
+[17.061s] removing '/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages/lidar_plotter-0.0.0-py3.10.egg-info' (and everything under it)
+[17.064s] Copying ../../build/lidar_plotter/lidar_plotter.egg-info to /home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages/lidar_plotter-0.0.0-py3.10.egg-info
+[17.085s] running install_scripts
+[17.379s] Installing lidarPlotter script to /home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/lidar_plotter
+[17.385s] writing list of installed files to '/home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/install.log'
+[18.398s] Invoked command in '/home/ubuntu/Quadrupedal490_ws/src/lidar_plotter' returned '0': PYTHONPATH=/home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/lidar_plotter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lidar_plotter build --build-base /home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/build install --record /home/ubuntu/Quadrupedal490_ws/build/lidar_plotter/install.log --single-version-externally-managed

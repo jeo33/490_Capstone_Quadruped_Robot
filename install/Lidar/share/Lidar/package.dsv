@@ -1,0 +1,6 @@
+source;share/Lidar/hook/pythonpath.ps1
+source;share/Lidar/hook/pythonpath.dsv
+source;share/Lidar/hook/pythonpath.sh
+source;share/Lidar/hook/ament_prefix_path.ps1
+source;share/Lidar/hook/ament_prefix_path.dsv
+source;share/Lidar/hook/ament_prefix_path.sh

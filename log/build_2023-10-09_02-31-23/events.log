@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.002074] (Lidar) JobQueued: {'identifier': 'Lidar', 'dependencies': OrderedDict()}
+[0.002759] (Lidar) JobStarted: {'identifier': 'Lidar'}
+[0.099172] (-) TimerEvent: {}
+[0.200122] (-) TimerEvent: {}
+[0.303454] (-) TimerEvent: {}
+[0.407402] (-) TimerEvent: {}
+[0.508271] (-) TimerEvent: {}
+[0.609044] (-) TimerEvent: {}
+[0.710131] (-) TimerEvent: {}
+[0.811552] (-) TimerEvent: {}
+[0.912304] (-) TimerEvent: {}
+[1.013475] (-) TimerEvent: {}
+[1.114447] (-) TimerEvent: {}
+[1.215444] (-) TimerEvent: {}
+[1.317313] (-) TimerEvent: {}
+[1.418080] (-) TimerEvent: {}
+[1.518813] (-) TimerEvent: {}
+[1.619549] (-) TimerEvent: {}
+[1.720307] (-) TimerEvent: {}
+[1.821031] (-) TimerEvent: {}
+[1.921958] (-) TimerEvent: {}
+[2.022960] (-) TimerEvent: {}
+[2.123678] (-) TimerEvent: {}
+[2.224652] (-) TimerEvent: {}
+[2.326210] (-) TimerEvent: {}
+[2.427457] (-) TimerEvent: {}
+[2.528756] (-) TimerEvent: {}
+[2.629891] (-) TimerEvent: {}
+[2.731196] (-) TimerEvent: {}
+[2.832691] (-) TimerEvent: {}
+[2.933555] (-) TimerEvent: {}
+[3.034530] (-) TimerEvent: {}
+[3.135584] (-) TimerEvent: {}
+[3.236385] (-) TimerEvent: {}
+[3.337096] (-) TimerEvent: {}
+[3.437888] (-) TimerEvent: {}
+[3.538878] (-) TimerEvent: {}
+[3.639656] (-) TimerEvent: {}
+[3.740370] (-) TimerEvent: {}
+[3.841097] (-) TimerEvent: {}
+[3.941925] (-) TimerEvent: {}
+[4.042874] (-) TimerEvent: {}
+[4.143701] (-) TimerEvent: {}
+[4.244718] (-) TimerEvent: {}
+[4.345684] (-) TimerEvent: {}
+[4.446771] (-) TimerEvent: {}
+[4.547899] (-) TimerEvent: {}
+[4.648727] (-) TimerEvent: {}
+[4.749707] (-) TimerEvent: {}
+[4.850816] (-) TimerEvent: {}
+[4.951736] (-) TimerEvent: {}
+[5.052576] (-) TimerEvent: {}
+[5.153297] (-) TimerEvent: {}
+[5.254324] (-) TimerEvent: {}
+[5.355436] (-) TimerEvent: {}
+[5.456302] (-) TimerEvent: {}
+[5.557856] (-) TimerEvent: {}
+[5.658871] (-) TimerEvent: {}
+[5.759772] (-) TimerEvent: {}
+[5.860807] (-) TimerEvent: {}
+[5.961528] (-) TimerEvent: {}
+[6.062452] (-) TimerEvent: {}
+[6.163589] (-) TimerEvent: {}
+[6.264564] (-) TimerEvent: {}
+[6.365660] (-) TimerEvent: {}
+[6.466655] (-) TimerEvent: {}
+[6.567847] (-) TimerEvent: {}
+[6.668638] (-) TimerEvent: {}
+[6.769417] (-) TimerEvent: {}
+[6.870188] (-) TimerEvent: {}
+[6.971030] (-) TimerEvent: {}
+[7.072137] (-) TimerEvent: {}
+[7.174000] (-) TimerEvent: {}
+[7.266563] (Lidar) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/Lidar', 'build', '--build-base', '/home/ubuntu/Quadrupedal490_ws/build/Lidar/build', 'install', '--record', '/home/ubuntu/Quadrupedal490_ws/build/Lidar/install.log', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/Quadrupedal490_ws/src/Lidar', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/root', 'USER': 'ubuntu', 'SSH_AGENT_PID': '1363', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/root', 'OLDPWD': '/home/ubuntu', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1254', 'SYSTEMD_EXEC_PID': '1835', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '31759', 'COLCON_PREFIX_PATH': '/home/ubuntu/Quadrupedal490_ws/install', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', 'JOURNAL_STREAM': '8:26009', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1559,unix/ubuntu:/tmp/.ICE-unix/1559', 'INVOCATION_ID': '6f1522c570544ccda29cb8a628476ad8', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/home/ubuntu/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/Quadrupedal490_ws/install/Lidar:/opt/ros/iron', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:8bf88b18-2bdf-4140-be63-3f447b67cbd7', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/Quadrupedal490_ws/build/Lidar', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/Quadrupedal490_ws/build/Lidar/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages:/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.276232] (-) TimerEvent: {}
+[7.377772] (-) TimerEvent: {}
+[7.479190] (-) TimerEvent: {}
+[7.579926] (-) TimerEvent: {}
+[7.681097] (-) TimerEvent: {}
+[7.782026] (-) TimerEvent: {}
+[7.882927] (-) TimerEvent: {}
+[7.983788] (-) TimerEvent: {}
+[8.084845] (-) TimerEvent: {}
+[8.185709] (-) TimerEvent: {}
+[8.286502] (-) TimerEvent: {}
+[8.387399] (-) TimerEvent: {}
+[8.488365] (-) TimerEvent: {}
+[8.589151] (-) TimerEvent: {}
+[8.689930] (-) TimerEvent: {}
+[8.790705] (-) TimerEvent: {}
+[8.891429] (-) TimerEvent: {}
+[8.992348] (-) TimerEvent: {}
+[9.093106] (-) TimerEvent: {}
+[9.194396] (-) TimerEvent: {}
+[9.295214] (-) TimerEvent: {}
+[9.392048] (Lidar) StdoutLine: {'line': b'running egg_info\n'}
+[9.395365] (-) TimerEvent: {}
+[9.401011] (Lidar) StdoutLine: {'line': b'writing ../../build/Lidar/Lidar.egg-info/PKG-INFO\n'}
+[9.403271] (Lidar) StdoutLine: {'line': b'writing dependency_links to ../../build/Lidar/Lidar.egg-info/dependency_links.txt\n'}
+[9.404624] (Lidar) StdoutLine: {'line': b'writing entry points to ../../build/Lidar/Lidar.egg-info/entry_points.txt\n'}
+[9.406253] (Lidar) StdoutLine: {'line': b'writing requirements to ../../build/Lidar/Lidar.egg-info/requires.txt\n'}
+[9.408481] (Lidar) StdoutLine: {'line': b'writing top-level names to ../../build/Lidar/Lidar.egg-info/top_level.txt\n'}
+[9.420358] (Lidar) StdoutLine: {'line': b"reading manifest file '../../build/Lidar/Lidar.egg-info/SOURCES.txt'\n"}
+[9.425875] (Lidar) StdoutLine: {'line': b"writing manifest file '../../build/Lidar/Lidar.egg-info/SOURCES.txt'\n"}
+[9.427580] (Lidar) StdoutLine: {'line': b'running build\n'}
+[9.428420] (Lidar) StdoutLine: {'line': b'running build_py\n'}
+[9.430431] (Lidar) StdoutLine: {'line': b'copying Lidar/lidar_scan.py -> /home/ubuntu/Quadrupedal490_ws/build/Lidar/build/lib/Lidar\n'}
+[9.433965] (Lidar) StdoutLine: {'line': b'running install\n'}
+[9.436378] (Lidar) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[9.437235] (Lidar) StderrLine: {'line': b'  warnings.warn(\n'}
+[9.438191] (Lidar) StdoutLine: {'line': b'running install_lib\n'}
+[9.458634] (Lidar) StdoutLine: {'line': b'copying /home/ubuntu/Quadrupedal490_ws/build/Lidar/build/lib/Lidar/lidar_scan.py -> /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar\n'}
+[9.467141] (Lidar) StdoutLine: {'line': b'byte-compiling /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar/lidar_scan.py to lidar_scan.cpython-310.pyc\n'}
+[9.470797] (Lidar) StdoutLine: {'line': b'running install_data\n'}
+[9.474524] (Lidar) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.483367] (Lidar) StdoutLine: {'line': b"removing '/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.485346] (Lidar) StdoutLine: {'line': b'Copying ../../build/Lidar/Lidar.egg-info to /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar-0.0.0-py3.10.egg-info\n'}
+[9.495538] (-) TimerEvent: {}
+[9.496727] (Lidar) StdoutLine: {'line': b'running install_scripts\n'}
+[9.595739] (-) TimerEvent: {}
+[9.622579] (Lidar) StdoutLine: {'line': b'Installing lidar_scan script to /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/Lidar\n'}
+[9.630543] (Lidar) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/Quadrupedal490_ws/build/Lidar/install.log'\n"}
+[9.696020] (-) TimerEvent: {}
+[9.797494] (-) TimerEvent: {}
+[9.801876] (Lidar) CommandEnded: {'returncode': 0}
+[9.897637] (-) TimerEvent: {}
+[9.998379] (-) TimerEvent: {}
+[10.099413] (-) TimerEvent: {}
+[10.200423] (-) TimerEvent: {}
+[10.221385] (Lidar) JobEnded: {'identifier': 'Lidar', 'rc': 0}
+[10.225205] (-) EventReactorShutdown: {}

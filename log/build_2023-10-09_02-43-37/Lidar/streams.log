@@ -1,0 +1,26 @@
+[10.438s] Invoking command in '/home/ubuntu/Quadrupedal490_ws/src/Lidar': PYTHONPATH=/home/ubuntu/Quadrupedal490_ws/build/Lidar/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Lidar build --build-base /home/ubuntu/Quadrupedal490_ws/build/Lidar/build install --record /home/ubuntu/Quadrupedal490_ws/build/Lidar/install.log --single-version-externally-managed
+[12.026s] running egg_info
+[12.031s] writing ../../build/Lidar/Lidar.egg-info/PKG-INFO
+[12.036s] writing dependency_links to ../../build/Lidar/Lidar.egg-info/dependency_links.txt
+[12.039s] writing entry points to ../../build/Lidar/Lidar.egg-info/entry_points.txt
+[12.042s] writing requirements to ../../build/Lidar/Lidar.egg-info/requires.txt
+[12.045s] writing top-level names to ../../build/Lidar/Lidar.egg-info/top_level.txt
+[12.059s] reading manifest file '../../build/Lidar/Lidar.egg-info/SOURCES.txt'
+[12.064s] writing manifest file '../../build/Lidar/Lidar.egg-info/SOURCES.txt'
+[12.065s] running build
+[12.067s] running build_py
+[12.072s] copying Lidar/lidat_scan.py -> /home/ubuntu/Quadrupedal490_ws/build/Lidar/build/lib/Lidar
+[12.079s] running install
+[12.085s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.086s]   warnings.warn(
+[12.087s] running install_lib
+[12.105s] copying /home/ubuntu/Quadrupedal490_ws/build/Lidar/build/lib/Lidar/lidat_scan.py -> /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar
+[12.111s] byte-compiling /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar/lidat_scan.py to lidat_scan.cpython-310.pyc
+[12.119s] running install_data
+[12.127s] running install_egg_info
+[12.136s] removing '/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar-0.0.0-py3.10.egg-info' (and everything under it)
+[12.147s] Copying ../../build/Lidar/Lidar.egg-info to /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages/Lidar-0.0.0-py3.10.egg-info
+[12.159s] running install_scripts
+[12.253s] Installing lidar_scan script to /home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/Lidar
+[12.258s] writing list of installed files to '/home/ubuntu/Quadrupedal490_ws/build/Lidar/install.log'
+[12.439s] Invoked command in '/home/ubuntu/Quadrupedal490_ws/src/Lidar' returned '0': PYTHONPATH=/home/ubuntu/Quadrupedal490_ws/build/Lidar/prefix_override:/home/ubuntu/Quadrupedal490_ws/install/Lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Lidar build --build-base /home/ubuntu/Quadrupedal490_ws/build/Lidar/build install --record /home/ubuntu/Quadrupedal490_ws/build/Lidar/install.log --single-version-externally-managed
