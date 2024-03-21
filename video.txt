@@ -1,0 +1,1 @@
+ffmpeg -i /dev/video0 -f alsa -i hw:3,0 -c:v h264_v4l2m2m -b:v 8M -f mpegts udp://192.168.43105.213:8081
